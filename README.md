@@ -1,1 +1,1 @@
-Mikan`s mods develop started on Augest 1st. Mikan core is a library mod. We are going to develop "Mikan Intergraated" "Mikan Weapons" on our plan.
+このブランチは主に現在作成中のmod,「Mikan Mod」の前提mod「Mikan Core」の開発版を上げていくことになります。「Mikan Core」では基本的に鉱石や木などのクラフト材料などの提供をする予定です。
