@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mikan_core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Mikan_core.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mikan_core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Mikan_core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mikan_mods_mikan_core.Mikan_core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Mikan_mods_mikan_core.Mikan_core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.mikan.core.Mikan_core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.mikan.core.Mikan_core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.mikan.core.Mikan_core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.mikan.core.Mikan_core.test.iml" />
     </modules>
   </component>
 </project>
