@@ -1,9 +1,20 @@
 package org.mikan.core.mikan_core.register.tab;
 
+import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 
-public class Mikan_tab {
-    public static final Item[] items = {
+public class Mikan_tab extends ItemGroup {
 
+
+    public Mikan_tab() {
+        super("MikanMod");
+    }
+
+    @Override
+    public ItemStack makeIcon(){
+        ItemStack itemStack = new ItemStack(Blocks.TNT);
+        return itemStack;
     }
 }
