@@ -5,7 +5,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ObjectHolder;
-import org.mikan.core.mikan_core.item.ItemAstiumGem;
+import org.mikan.core.mikan_core.item.*;
 
 import java.rmi.registry.Registry;
 
@@ -15,9 +15,13 @@ public class MikanCoreItems {
     public static class Register{
         @SubscribeEvent
         public static void registerItems(final RegistryEvent.Register<Item> event){
-
             final Item[] item = {
                     new ItemAstiumGem(),
+                    new ItemAstiumPowder(),
+                    new ItemMikan(),
+                    new ItemEnderlightGem(),
+                    new ItemEnderlightPowder(),
+                    new ItemForciniumGem(),
             };
 
             event.getRegistry().registerAll(item);
