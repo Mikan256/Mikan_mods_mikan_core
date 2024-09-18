@@ -1,4 +1,4 @@
-package org.mikan.core.mikan_core.register.item;
+package org.mikan.core.mikan_core.item;
 
 import net.minecraft.item.Item;
 import org.mikan.core.mikan_core.init.MikanTabinit;

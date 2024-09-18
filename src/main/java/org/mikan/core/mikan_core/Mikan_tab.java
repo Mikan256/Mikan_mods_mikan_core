@@ -1,7 +1,6 @@
-package org.mikan.core.mikan_core.register.tab;
+package org.mikan.core.mikan_core;
 
 import net.minecraft.block.Blocks;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
