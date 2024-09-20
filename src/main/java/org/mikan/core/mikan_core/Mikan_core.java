@@ -32,20 +32,20 @@ public class Mikan_core {
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        // some preinit code
+        // 初期化用メッセージ
         LOGGER.info("MikanCore was powered.");
 
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-        // do something that can only be done on the client
+        // クライアント導入処理
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().options);
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(FMLServerStartingEvent event) {
-        // do something when the server starts
+        // サーバー導入処理
         LOGGER.info("MikanCore導入完了");
     }
 }

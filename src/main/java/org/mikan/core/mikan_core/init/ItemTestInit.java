@@ -19,6 +19,7 @@ public class ItemTestInit {
     }
 
     public static class Items {
+        //テストアイテム登録処理
         private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
         public static final RegistryObject<Item> TEST = ITEMS.register("test", () -> new Item(new Item.Properties()));
 
