@@ -1,4 +1,26 @@
 {
   "itemGroup.MikanMod": "Mikan Mod",
-  "item.mikan_core.mikan": "Mikan"
+  "item.mikan_core.mikan": "Mikan",
+  "item.mikan_core.mikan.desc": "Delicious fruit!",
+  "item.mikan_core.astium_gem": "Astium Gem",
+  "item.mikan_core.astium_powder": "Astium Powder",
+  "item.mikan_core.enderlight_gem": "Enderlight Gem",
+  "item.mikan_core.enderlight_powder": "Enderlight Powder",
+  "item.mikan_core.forcinium_gem": "Forcinium Gem",
+  "item.mikan_core.forcinium_powder": "Forcinium Powder",
+  "item.mikan_core.hand_compressor": "Hand Compressor",
+  "item.mikan_core.machine_hummer": "Machine Hummer",
+  "item.mikan_core.mikan_juice_100": "100% Mikan Juice",
+  "item.mikan_core.mikan_juice_800": "800% Mikan Juice",
+  "item.mikan_core.mikan_juice_6400": "6400% Mikan Juice",
+  "item.mikan_core.mikan_torch": "Mikan Torch",
+  "item.mikan_core.mikanium_ingot": "Mikanium Ingot",
+  "item.mikan_core.mineral_pressurized_concentrator": "Mineral Pressurized Concentrator",
+  "item.mikan_core.nermes_ingot": "Nermes Ingot",
+  "item.mikan_core.nermes_powder": "Nermes Powder",
+  "item.mikan_core.parcing_nake_ingot": "Parcing Nake Ingot",
+  "item.mikan_core.parcing_powder": "Parcing Powder",
+  "item.mikan_core.zionim_gem": "Zionim Powder",
+  "item.mikan_core.zionim_powder": "Zionim powder"
+
 }

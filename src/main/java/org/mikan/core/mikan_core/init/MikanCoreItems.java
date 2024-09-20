@@ -21,6 +21,7 @@ public class MikanCoreItems {
         @SubscribeEvent
         public static void registerItems(final RegistryEvent.Register<Item> event){
             final Item[] item = {
+                    //ここにアイテム登録
                     new ItemMikan(),
                     new ItemAstiumGem(),
                     new ItemAstiumPowder(),
@@ -43,7 +44,7 @@ public class MikanCoreItems {
                     new ItemZionimGem(),
                     new ItemZionimPowder(),
             };
-
+            //アイテム登録処理
             event.getRegistry().registerAll(item);
 
         }

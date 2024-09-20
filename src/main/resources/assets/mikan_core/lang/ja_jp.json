@@ -1,4 +1,26 @@
 {
-  "itemGroup.MikanMod": "みかんmod",
-  "item.mikan_core.mikan": "みかん"
+  "itemGroup.MikanMod": "みかんMod",
+  "item.mikan_core.mikan": "みかん",
+  "item.mikan_core.mikan.desc": "美味しい果実",
+  "item.mikan_core.astium_gem": "アスチウム",
+  "item.mikan_core.astium_powder": "アスチウムの粉",
+  "item.mikan_core.enderlight_gem": "エンダーライト",
+  "item.mikan_core.enderlight_powder": "エンダーライトの粉",
+  "item.mikan_core.forcinium_gem": "フォルシニウム",
+  "item.mikan_core.forcinium_powder": "フォルシニウムの粉",
+  "item.mikan_core.hand_compressor": "ハンドコンプレッサー",
+  "item.mikan_core.machine_hummer": "マシンハンマー",
+  "item.mikan_core.mikan_juice_100": "100%みかんジュース",
+  "item.mikan_core.mikan_juice_800": "800%みかんジュース",
+  "item.mikan_core.mikan_juice_6400": "6400%みかんジュース",
+  "item.mikan_core.mikan_torch": "みかんの灯",
+  "item.mikan_core.mikanium_ingot": "ミカニウムインゴット",
+  "item.mikan_core.mineral_pressurized_concentrator": "鉱石加圧圧縮機",
+  "item.mikan_core.nermes_ingot": "ネルメスインゴット",
+  "item.mikan_core.nermes_powder": "ネルメスの粉",
+  "item.mikan_core.parcing_nake_ingot": "パーシングネイクインゴット",
+  "item.mikan_core.parcing_powder": "パーシングの粉",
+  "item.mikan_core.zionim_gem": "ジオニム",
+  "item.mikan_core.zionim_powder": "ジオニムの粉",
+
 }
