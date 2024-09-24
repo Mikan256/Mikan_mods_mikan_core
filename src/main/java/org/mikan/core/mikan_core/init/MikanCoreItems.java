@@ -2,6 +2,7 @@ package org.mikan.core.mikan_core.init;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -20,6 +21,7 @@ public class MikanCoreItems {
 
         @SubscribeEvent
         public static void registerItems(final RegistryEvent.Register<Item> event){
+
             final Item[] item = {
                     //ここにアイテム登録
                     new ItemMikan(),
@@ -48,5 +50,8 @@ public class MikanCoreItems {
             event.getRegistry().registerAll(item);
 
         }
+        //参照用登録
+        public static final RegistryObject<Item> MIKAN = RegistryObject.of(new ResourceLocation("mikan_core:mikan"), ForgeRegistries.ITEMS);
+        public static final RegistryObject<Item> ASTIUM_GEM = RegistryObject.of(new ResourceLocation("mikan_core:astium_gem"), ForgeRegistries.ITEMS);
     }
 }
