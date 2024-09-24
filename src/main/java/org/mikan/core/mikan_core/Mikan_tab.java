@@ -1,7 +1,7 @@
 package org.mikan.core.mikan_core;
 
 import net.minecraft.item.*;
-import org.mikan.core.mikan_core.init.ItemTestInit;
+import org.mikan.core.mikan_core.init.MikanCoreItems;
 
 public class Mikan_tab extends ItemGroup {
 
@@ -13,6 +13,6 @@ public class Mikan_tab extends ItemGroup {
     //アイコン
     @Override
     public ItemStack makeIcon(){
-        return new ItemStack(ItemTestInit.Items.TEST.get());
+        return new ItemStack(MikanCoreItems.Register.MIKAN.get());
     }
 }
