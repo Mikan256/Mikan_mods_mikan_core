@@ -43,7 +43,8 @@ public class MikanCoreBlocks {
                 event.getRegistry().register(item.setRegistryName(location));
             }
 
-    }
+        }
+        //参照用登録
 
     }
 }
