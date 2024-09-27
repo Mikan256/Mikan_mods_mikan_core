@@ -7,7 +7,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
 
-public class BlockMikanLeave extends GlassBlock {
+public class BlockMikanLeave extends LeavesBlock {
     public BlockMikanLeave(){
         super(Properties.of(Material.LEAVES)
                 .strength(0.2F,0.2F)
