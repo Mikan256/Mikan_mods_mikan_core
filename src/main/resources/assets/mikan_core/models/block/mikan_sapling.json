@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mikan_core:block/mikan_sapling"
+  }
+}

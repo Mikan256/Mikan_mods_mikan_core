@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "mikan_core:block/mikan_log" },
+    "axis=z": { "model": "mikan_core:block/mikan_log", "x": 90 },
+    "axis=x": { "model": "mikan_core:block/mikan_log", "x": 90, "y": 90 }
+  }
+}
