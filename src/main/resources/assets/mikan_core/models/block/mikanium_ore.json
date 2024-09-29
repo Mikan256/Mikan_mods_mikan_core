@@ -1,0 +1,6 @@
+{
+  "parent": "block/all",
+  "textures": {
+    "all": "mikan_core:block/mikanium_ore"
+  }
+}
