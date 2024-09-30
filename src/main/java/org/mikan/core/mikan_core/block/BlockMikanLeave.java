@@ -13,7 +13,7 @@ public class BlockMikanLeave extends LeavesBlock {
         super(Properties.of(Material.LEAVES)
                 .strength(0.2F,0.2F)
                 .sound(SoundType.GRASS)
-                .noCollission()
+                .noOcclusion()
 
 
         );

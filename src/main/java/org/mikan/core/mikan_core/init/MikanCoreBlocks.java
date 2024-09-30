@@ -10,23 +10,25 @@ import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.ObjectHolder;
 import org.mikan.core.mikan_core.block.*;
 
 @ObjectHolder("mikan_core")
 public class MikanCoreBlocks {
     //ブロックアイテム用初期化
-    public static final BlockAstiumOre ASTIUM_ORE = null;
-    public static final BlockEnderlightOre ENDERLIGHT_ORE = null;
-    public static final BlockForciniumOre FORCINIUM_ORE = null;
-    public static final BlockMikaniumOre MIKANIUM_ORE = null;
-    public static final BlockMikanLeave MIKAN_LEAVE= null;
-    public static final BlockMikanLog MIKAN_LOG = null;
-    public static final BlockMikanSapling MIKAN_SAPLING = null;
-    public static final BlockNerumesOre NERUMES_ORE = null;
-    public static final BlockParcingNakeOre PARCING_NAKE_ORE = null;
-    public static final BlockZionimOre ZIONIM_ORE = null;
+    public static final BlockAstiumOre astium_ore = null;
+    public static final BlockEnderlightOre enderlight_ore = null;
+    public static final BlockForciniumOre forcinium_ore = null;
+    public static final BlockMikaniumOre mikanium_ore = null;
+    public static final BlockMikanLeave mikan_leave= null;
+    public static final BlockMikanLog mikan_log = null;
+    public static final BlockMikanSapling mikan_sapling = null;
+    public static final BlockNerumesOre nerumes_ore = null;
+    public static final BlockParcingNakeOre parcing_nake_ore = null;
+    public static final BlockZionimOre zionim_ore = null;
 
 
     @Mod.EventBusSubscriber(modid = "mikan_core",bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -65,17 +67,16 @@ public class MikanCoreBlocks {
             final BlockItem[] items = {
                     //ブロックアイテム登録
 
-                    new BlockItem(ASTIUM_ORE, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
-
-                    new BlockItem(ENDERLIGHT_ORE, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
-                    new BlockItem(FORCINIUM_ORE, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
-                    new BlockItem(MIKANIUM_ORE, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
-                    new BlockItem(MIKAN_LEAVE, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
-                    new BlockItem(MIKAN_LOG, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
-                    new BlockItem(MIKAN_SAPLING, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
-                    new BlockItem(NERUMES_ORE, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
-                    new BlockItem(PARCING_NAKE_ORE, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
-                    new BlockItem(ZIONIM_ORE, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
+                    new BlockItem(astium_ore, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
+                    new BlockItem(enderlight_ore, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
+                    new BlockItem(forcinium_ore, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
+                    new BlockItem(mikanium_ore, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
+                    new BlockItem(mikan_leave, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
+                    new BlockItem(mikan_log, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
+                    new BlockItem(mikan_sapling, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
+                    new BlockItem(nerumes_ore, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
+                    new BlockItem(parcing_nake_ore, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
+                    new BlockItem(zionim_ore, new Item.Properties().tab(MikanTabinit.Mikan_tab)),
 
 
             };
@@ -87,7 +88,7 @@ public class MikanCoreBlocks {
             }
 
         }
-        /*
+
         //参照用登録ブロック
         public static final RegistryObject<Block> ASTIUM_ORE = RegistryObject.of(new ResourceLocation("mikan_core:astium_ore"), ForgeRegistries.BLOCKS);
         public static final RegistryObject<Block> ENDERLIGHT_ORE = RegistryObject.of(new ResourceLocation("mikan_core:enderlight_ore"), ForgeRegistries.BLOCKS);
@@ -110,7 +111,7 @@ public class MikanCoreBlocks {
         public static final RegistryObject<BlockItem> NERUMES_ORE_ITEM = RegistryObject.of(new ResourceLocation("mikan_core:nerumes_ore"), ForgeRegistries.ITEMS);
         public static final RegistryObject<BlockItem> PARCING_NAKE_ORE_ITEM = RegistryObject.of(new ResourceLocation("mikan_core:parcing_nake_ore"), ForgeRegistries.ITEMS);
         public static final RegistryObject<BlockItem> ZIONIM_ORE_ITEM = RegistryObject.of(new ResourceLocation("mikan_core:zionim_ore"), ForgeRegistries.ITEMS);
-    */
+
     }
 
 }
