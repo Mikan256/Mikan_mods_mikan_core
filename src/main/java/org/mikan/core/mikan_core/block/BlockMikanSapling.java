@@ -11,6 +11,7 @@ public class BlockMikanSapling extends SaplingBlock {
                 .sound(SoundType.GRASS)
                 .strength(0F,0F)
                 .noCollission()
+                .randomTicks()
 
         );
         this.setRegistryName("mikan_sapling");

@@ -2,6 +2,6 @@
   "parent": "block/cube_column",
   "textures": {
     "end": "mikan_core:block/mikan_log_top",
-    "side": "mikan_core:block/mikan_log_side"
+    "side": "mikan_core:block/mikan_log"
   }
 }
