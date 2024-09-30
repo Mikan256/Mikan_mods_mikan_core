@@ -7,7 +7,7 @@ import net.minecraftforge.common.ToolType;
 
 public class BlockMikanLog extends Block {
     public BlockMikanLog(){
-        super(Properties.of(Material.PLANT)
+        super(Properties.of(Material.WOOD)
                 .strength(2F,2F)
                 .requiresCorrectToolForDrops()
                 .harvestTool(ToolType.AXE)
