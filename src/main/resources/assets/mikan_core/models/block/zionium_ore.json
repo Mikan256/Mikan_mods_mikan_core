@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mikan_core:block/zionium_ore"
+    "all": "mikan_core:block/zionim_ore"
   }
 }
