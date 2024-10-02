@@ -22,6 +22,14 @@
   "item.mikan_core.parcing_powder": "パーシングの粉",
   "item.mikan_core.zionim_gem": "ジオニム",
   "item.mikan_core.zionim_powder": "ジオニムの粉",
-  "block.mikan_core.astium_ore": "アスチウム鉱石"
-
+  "block.mikan_core.astium_ore": "アスチウム鉱石",
+  "block.mikan_core.enderlight_ore": "エンダーライト鉱石",
+  "block.mikan_core.forcinium_ore": "フォルシニウム鉱石",
+  "block.mikan_core.mikan_leave": "みかんの葉",
+  "block.mikan_core.mikan_log": "みかんの原木",
+  "block.mikan_core.mikan_sapling": "みかんの苗木",
+  "block.mikan_core.mikanium_ore": "ミカニウム鉱石",
+  "block.mikan_core.nerumes_ore": "ネルメス鉱石",
+  "block.mikan_core.parcing_nake_ore": "パーシングネイク鉱石",
+  "block.mikan_core.zionim_ore": "ジオニム鉱石"
 }
