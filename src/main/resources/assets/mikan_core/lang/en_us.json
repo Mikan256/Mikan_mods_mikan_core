@@ -22,6 +22,15 @@
   "item.mikan_core.parcing_powder": "Parcing Powder",
   "item.mikan_core.zionim_gem": "Zionim Powder",
   "item.mikan_core.zionim_powder": "Zionim powder",
-  "block.mikan_core.astium_ore": "Astium Ore"
+  "block.mikan_core.astium_ore": "Astium Ore",
+  "block.mikan_core.enderlight_ore": "Enderlight Ore",
+  "block.mikan_core.forcinium_ore": "Forcinium Ore",
+  "block.mikan_core.mikan_leave": "Mikan Leave",
+  "block.mikan_core.mikan_log": "Mikan Log",
+  "block.mikan_core.mikan_sapling": "Mikan Sapling",
+  "block.mikan_core.mikanium_ore": "Mikanium Ore",
+  "block.mikan_core.nerumes_ore": "Nerumes Ore",
+  "block.mikan_core.parcing_nake_ore": "Parcing Nake Ore",
+  "block.mikan_core.zionim_ore": "Zionim Ore"
 
 }
