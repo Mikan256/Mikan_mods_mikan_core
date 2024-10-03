@@ -9,7 +9,7 @@ import net.minecraftforge.common.ToolType;
 public class BlockMikanLog extends RotatedPillarBlock {
     public BlockMikanLog(){
         super(Properties.of(Material.WOOD)
-                .strength(2F,2F)
+                .strength(2F,2000F)
                 .requiresCorrectToolForDrops()
                 .harvestTool(ToolType.AXE)
                 .harvestLevel(2)
