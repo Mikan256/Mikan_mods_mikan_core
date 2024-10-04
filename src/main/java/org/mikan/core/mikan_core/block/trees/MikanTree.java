@@ -7,7 +7,7 @@ import org.mikan.core.mikan_core.world.gen.feature.MikanTreeFeature;
 
 import javax.annotation.Nullable;
 import java.util.Random;
-
+//みかんの木クラス
 public class MikanTree extends Tree {
 
 
