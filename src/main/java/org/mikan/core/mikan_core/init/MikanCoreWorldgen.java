@@ -18,8 +18,11 @@ public class MikanCoreWorldgen {
 
         }else{
             oregenerate(event.getGeneration(),OreFeatureConfig.FillerBlockType.NATURAL_STONE,MikanCoreBlocks.Register.ASTIUM_ORE.get().defaultBlockState(),6,64,10);
-
+            oregenerate(event.getGeneration(),OreFeatureConfig.FillerBlockType.NATURAL_STONE,MikanCoreBlocks.Register.ENDERLIGHT_ORE.get().defaultBlockState(),6,36,6);
+            oregenerate(event.getGeneration(),OreFeatureConfig.FillerBlockType.NATURAL_STONE,MikanCoreBlocks.Register.FORCINIUM_ORE.get().defaultBlockState(),6,64,10);
+            oregenerate(event.getGeneration(),OreFeatureConfig.FillerBlockType.NATURAL_STONE,MikanCoreBlocks.Register.MIKANIUM_ORE.get().defaultBlockState(),4,16,2);
         }
+
 
     }
     //鉱石生成用
