@@ -1,17 +1,14 @@
 package org.mikan.core.mikan_core.init;
 
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ObjectHolder;
 import org.mikan.core.mikan_core.item.*;
-import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.RegistryObject;
-import net.minecraftforge.eventbus.api.IEventBus;
 
 
 @ObjectHolder("mikan_core")

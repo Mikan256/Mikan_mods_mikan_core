@@ -3,7 +3,6 @@ package org.mikan.core.mikan_core.block.trees;
 import net.minecraft.block.trees.Tree;
 import net.minecraft.world.gen.feature.BaseTreeFeatureConfig;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
-import net.minecraft.world.gen.treedecorator.TreeDecorator;
 import org.mikan.core.mikan_core.world.gen.feature.MikanTreeFeature;
 
 import javax.annotation.Nullable;

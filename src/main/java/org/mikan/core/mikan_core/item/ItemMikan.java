@@ -11,7 +11,6 @@ import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
 import org.mikan.core.mikan_core.init.MikanTabinit;
 
-import javax.annotation.Nullable;
 import java.util.List;
 
 public class ItemMikan extends Item {
