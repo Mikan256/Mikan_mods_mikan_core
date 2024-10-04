@@ -20,6 +20,7 @@ public class BlockZionimOre extends OreBlock {
         );
         this.setRegistryName("zionim_ore");
     }
+    //経験値設定
     protected int xpOnDrop(Random p_220281_1_) {
         if (this == MikanCoreBlocks.Register.ASTIUM_ORE.get()){
             return MathHelper.nextInt(p_220281_1_, 2, 5);

@@ -10,7 +10,7 @@ import org.mikan.core.mikan_core.init.MikanCoreBlocks;
 
 public class MikanTreeFeature  {
 
-
+    //木登録
     public static final ConfiguredFeature<BaseTreeFeatureConfig, ?> MIKAN = register(
             "mikan",
             Feature.TREE.configured((new BaseTreeFeatureConfig.Builder
