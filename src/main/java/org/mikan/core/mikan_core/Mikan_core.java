@@ -10,7 +10,6 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.mikan.core.mikan_core.init.MikanCoreWorldgen;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("mikan_core")
@@ -28,10 +27,10 @@ public class Mikan_core {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
         // Register ourselves for server and other game events we are interested in
-        MinecraftForge.EVENT_BUS.register(this);
-        //ワールド生成系
-        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, MikanCoreWorldgen::biomegen);
+        //MinecraftForge.EVENT_BUS.register(this);
+
     }
+
 
     private void setup(final FMLCommonSetupEvent event) {
         // 初期化用メッセージ
