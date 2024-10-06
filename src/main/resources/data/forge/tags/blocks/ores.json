@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "forge:ores/astium_ore",
+    "forge:ores/enderlight_ore",
+    "forge:ores/forcinium_ore",
+    "forge:ores/mikanium_ore",
+    "forge:ores/parcing_nake_ore",
+    "forge:ores/zionim_ore"
+  ]
+}
