@@ -3,10 +3,10 @@ package org.mikan.core.mikan_core.item;
 import net.minecraft.item.Item;
 import org.mikan.core.mikan_core.init.MikanTabinit;
 
-public class ItemNermesIngot extends Item {
+public class ItemNerumesIngot extends Item {
 
-    public ItemNermesIngot(){
+    public ItemNerumesIngot(){
         super(new Properties().tab(MikanTabinit.Mikan_tab));
-        this.setRegistryName("nermes_ingot");
+        this.setRegistryName("nerumes_ingot");
     }
 }
