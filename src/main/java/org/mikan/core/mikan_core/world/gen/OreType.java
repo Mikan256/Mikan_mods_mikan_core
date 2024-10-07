@@ -6,9 +6,9 @@ import org.mikan.core.mikan_core.init.MikanCoreBlocks;
 
 public enum OreType {
     ASTIUM_ORE(Lazy.of(MikanCoreBlocks.Register.ASTIUM_ORE),10,5,128),
-    ENDERLIGHT_ORE(Lazy.of(MikanCoreBlocks.Register.ENDERLIGHT_ORE),3,0,32),
+    ENDERLIGHT_ORE(Lazy.of(MikanCoreBlocks.Register.ENDERLIGHT_ORE),4,0,16),
     FORCINIUM_ORE(Lazy.of(MikanCoreBlocks.Register.FORCINIUM_ORE),8,5,32),
-    MIKANIUM_ORE(Lazy.of(MikanCoreBlocks.Register.MIKANIUM_ORE),2,0,32),
+    MIKANIUM_ORE(Lazy.of(MikanCoreBlocks.Register.MIKANIUM_ORE),3,0,16),
     NERUMES_ORE(Lazy.of(MikanCoreBlocks.Register.NERUMES_ORE),10,5,64),
     PARCING_NAKE_ORE(Lazy.of(MikanCoreBlocks.Register.PARCING_NAKE_ORE),4,5,32),
     ZIONIM_ORE(Lazy.of(MikanCoreBlocks.Register.ZIONIM_ORE),5,5,32)
