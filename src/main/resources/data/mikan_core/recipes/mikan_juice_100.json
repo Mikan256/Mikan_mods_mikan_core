@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mikan_core:hand_compressor"
+    },
+    {
+      "item": "mikan_core:mikan"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "mikan_core:mikan_juice_100",
+    "count": 1
+  }
+}

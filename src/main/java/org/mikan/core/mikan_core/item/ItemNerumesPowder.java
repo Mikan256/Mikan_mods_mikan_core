@@ -7,6 +7,6 @@ public class ItemNerumesPowder extends Item {
 
     public ItemNerumesPowder(){
         super(new Properties().tab(MikanTabinit.Mikan_tab));
-        this.setRegistryName("nermes_powder");
+        this.setRegistryName("nerumes_powder");
     }
 }

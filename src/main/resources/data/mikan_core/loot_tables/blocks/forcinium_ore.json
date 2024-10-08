@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mikan_core:forcinium_ore"
+          "name": "mikan_core:forcinium_gem"
         }
       ],
       "conditions": [

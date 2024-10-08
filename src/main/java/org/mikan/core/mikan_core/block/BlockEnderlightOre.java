@@ -22,8 +22,8 @@ public class BlockEnderlightOre extends OreBlock {
     }
     //経験値設定
     protected int xpOnDrop(Random p_220281_1_) {
-        if (this == MikanCoreBlocks.Register.ASTIUM_ORE.get()){
-            return MathHelper.nextInt(p_220281_1_, 2, 5);
+        if (this == MikanCoreBlocks.Register.ENDERLIGHT_ORE.get()){
+            return MathHelper.nextInt(p_220281_1_, 30, 50);
         }
         return 0;
     }

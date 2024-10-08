@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mikan_core:hand_compressor"
+    },
+    {
+      "item": "mikan_core:mikan_juice_800"
+    },
+    {
+      "item": "mikan_core:mikan_juice_800"
+    },
+    {
+      "item": "mikan_core:mikan_juice_800"
+    },
+    {
+      "item": "mikan_core:mikan_juice_800"
+    },
+    {
+      "item": "mikan_core:mikan_juice_800"
+    },
+    {
+      "item": "mikan_core:mikan_juice_800"
+    },
+    {
+      "item": "mikan_core:mikan_juice_800"
+    },
+    {
+      "item": "mikan_core:mikan_juice_800"
+    }
+  ],
+  "result": {
+    "item": "mikan_core:mikan_juice_800",
+    "count": 1
+  }
+}
