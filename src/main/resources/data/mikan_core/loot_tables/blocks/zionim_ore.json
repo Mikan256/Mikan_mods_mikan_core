@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mikan_core:zionim_ore"
+          "name": "mikan_core:zionim_gem"
         }
       ],
       "conditions": [
