@@ -42,6 +42,8 @@ public class MikanCoreItems {
                     new ItemParcingNakeIngot(),
                     new ItemZionimGem(),
                     new ItemZionimPowder(),
+                    new ItemDiamondShaves(),
+                    new ItemManualMill()
             };
             //アイテム登録処理
             event.getRegistry().registerAll(item);
