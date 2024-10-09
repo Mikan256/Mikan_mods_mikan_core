@@ -5,11 +5,11 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import org.mikan.core.mikan_core.init.MikanTabinit;
 
-public class ItemMineralPressurizedConcentrator extends Item {
+public class ItemManualMill extends Item {
 
-    public ItemMineralPressurizedConcentrator(){
-        super(new Properties().tab(MikanTabinit.Mikan_tab).durability(20));
-        this.setRegistryName("mineral_pressurized_concentrator");
+    public ItemManualMill(){
+        super(new Properties().tab(MikanTabinit.Mikan_tab).durability(30));
+        this.setRegistryName("manual_mill");
     }
 
     @Override
