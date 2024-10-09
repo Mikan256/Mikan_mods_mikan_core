@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mikan_core:manual_mill"
+    },
+    {
+      "item": "mikan_core:forcinium_gem"
+    }
+  ],
+  "result": {
+    "item": "mikan_core:forcinium_powder",
+    "count": 1
+  }
+}
