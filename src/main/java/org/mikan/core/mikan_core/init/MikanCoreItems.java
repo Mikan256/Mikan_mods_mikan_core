@@ -43,7 +43,12 @@ public class MikanCoreItems {
                     new ItemZionimGem(),
                     new ItemZionimPowder(),
                     new ItemDiamondShaves(),
-                    new ItemManualMill()
+                    new ItemManualMill(),
+                    new ItemWoodGear(),
+                    new ItemStoneGear(),
+                    new ItemIronGear(),
+                    new ItemGoldGear(),
+                    new ItemDiamondGear(),
             };
             //アイテム登録処理
             event.getRegistry().registerAll(item);
