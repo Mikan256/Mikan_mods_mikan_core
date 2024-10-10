@@ -1,85 +1,95 @@
-[08102024 23:06:39.334] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--mixin.config, mikan_core.mixins.json, --gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 36.2.42, --assetIndex, 1.16, --assetsDir, C:\Users\ichi1\.gradle\caches\forge_gradle\assets, --version, MOD_DEV, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[08102024 23:06:39.338] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_322 by Temurin
-[08102024 23:06:39.693] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[08102024 23:06:39.744] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/ichi1/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
-[08102024 23:06:42.179] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\ichi1\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[08102024 23:06:42.322] [main/WARN] [mixin/]: Reference map 'mikan_core.refmap.json' for mikan_core.mixins.json could not be read. If this is a development environment you can ignore this message
-[08102024 23:06:48.704] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08102024 23:06:49.208] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[08102024 23:06:49.313] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[08102024 23:06:50.167] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
-[08102024 23:06:50.176] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
-[08102024 23:06:52.277] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[08102024 23:06:52.361] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[08102024 23:06:52.471] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08102024 23:06:52.846] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
-[08102024 23:07:02.094] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[08102024 23:07:02.095] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[08102024 23:07:02.514] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[08102024 23:07:02.723] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[08102024 23:07:02.723] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[08102024 23:07:02.726] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[08102024 23:07:02.729] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[08102024 23:07:02.730] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[08102024 23:07:02.731] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[08102024 23:07:03.738] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[08102024 23:07:03.740] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[08102024 23:07:03.741] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[08102024 23:07:04.094] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[08102024 23:08:05.100] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08102024 23:08:05.101] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08102024 23:08:05.101] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08102024 23:08:05.102] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08102024 23:08:05.102] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08102024 23:08:05.105] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.42_mapped_official_1.16.5-recomp.jar, main
-[08102024 23:08:06.737] [Render thread/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load block tag forge:ores as it is missing following references: forge:ores/astium_ore (from main),forge:ores/enderlight_ore (from main),forge:ores/forcinium_ore (from main),forge:ores/mikanium_ore (from main),forge:ores/parcing_nake_ore (from main),forge:ores/zionim_ore (from main)
-[08102024 23:08:06.772] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08102024 23:08:08.511] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
-[08102024 23:08:08.636] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[08102024 23:08:09.101] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08102024 23:08:09.102] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08102024 23:08:09.102] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08102024 23:08:09.103] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08102024 23:08:09.103] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08102024 23:08:09.104] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.42_mapped_official_1.16.5-recomp.jar, main
-[08102024 23:08:10.590] [Render thread/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load block tag forge:ores as it is missing following references: forge:ores/astium_ore (from main),forge:ores/enderlight_ore (from main),forge:ores/forcinium_ore (from main),forge:ores/mikanium_ore (from main),forge:ores/parcing_nake_ore (from main),forge:ores/zionim_ore (from main)
-[08102024 23:08:10.606] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08102024 23:08:11.998] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
-[08102024 23:08:12.047] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[08102024 23:08:12.828] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08102024 23:08:12.864] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.5
-[08102024 23:08:12.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08102024 23:08:13.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08102024 23:08:14.714] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：0%
-[08102024 23:08:14.714] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：0%
-[08102024 23:08:15.005] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 993 ms
-[08102024 23:08:15.246] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
-[08102024 23:08:16.160] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[08102024 23:08:16.199] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@a018fae
-[08102024 23:08:16.219] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:8e903afb] logged in with entity id 74 at (183.92325222666804, 64.24918707874468, 12.530793352997618)
-[08102024 23:08:16.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームに参加しました
-[08102024 23:08:16.504] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[08102024 23:08:16.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
-[08102024 23:08:16.705] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5 advancements
-[08102024 23:08:17.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
-[08102024 23:08:17.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
-[08102024 23:09:34.005] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[08102024 23:09:34.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
-[08102024 23:09:34.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
-[08102024 23:09:34.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
-[08102024 23:09:34.706] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: 切断されました
-[08102024 23:09:34.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームを退出しました
-[08102024 23:09:34.714] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[08102024 23:09:34.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[08102024 23:09:34.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[08102024 23:09:34.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[08102024 23:09:34.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
-[08102024 23:09:34.824] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (新規ワールド (2)): All chunks are saved
-[08102024 23:09:34.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
-[08102024 23:09:34.825] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08102024 23:09:34.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
-[08102024 23:09:34.825] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08102024 23:09:34.840] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (新規ワールド (2)): All chunks are saved
-[08102024 23:09:34.846] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08102024 23:09:34.846] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08102024 23:09:35.698] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[10102024 23:29:59.049] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--mixin.config, mikan_core.mixins.json, --gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 36.2.42, --assetIndex, 1.16, --assetsDir, C:\Users\ichi1\.gradle\caches\forge_gradle\assets, --version, MOD_DEV, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[10102024 23:29:59.053] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_322 by Temurin
+[10102024 23:29:59.491] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[10102024 23:29:59.567] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/ichi1/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[10102024 23:30:02.062] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\ichi1\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[10102024 23:30:02.209] [main/WARN] [mixin/]: Reference map 'mikan_core.refmap.json' for mikan_core.mixins.json could not be read. If this is a development environment you can ignore this message
+[10102024 23:30:07.254] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10102024 23:30:08.184] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[10102024 23:30:08.298] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[10102024 23:30:09.111] [modloading-worker-9/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[10102024 23:30:09.116] [modloading-worker-9/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[10102024 23:30:10.891] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[10102024 23:30:10.955] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[10102024 23:30:11.039] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10102024 23:30:11.458] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
+[10102024 23:30:18.681] [Worker-Main-10/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'mikan_core:wood_gear#inventory' referenced from: mikan_core:wood_gear#inventory: java.io.FileNotFoundException: mikan_core:models/item/wood_gear.json
+[10102024 23:30:18.683] [Worker-Main-10/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'mikan_core:stone_gear#inventory' referenced from: mikan_core:stone_gear#inventory: java.io.FileNotFoundException: mikan_core:models/item/stone_gear.json
+[10102024 23:30:18.684] [Worker-Main-10/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'mikan_core:iron_gear#inventory' referenced from: mikan_core:iron_gear#inventory: java.io.FileNotFoundException: mikan_core:models/item/iron_gear.json
+[10102024 23:30:18.684] [Worker-Main-10/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'mikan_core:gold_gear#inventory' referenced from: mikan_core:gold_gear#inventory: java.io.FileNotFoundException: mikan_core:models/item/gold_gear.json
+[10102024 23:30:18.685] [Worker-Main-10/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'mikan_core:diamond_gear#inventory' referenced from: mikan_core:diamond_gear#inventory: java.io.FileNotFoundException: mikan_core:models/item/diamond_gear.json
+[10102024 23:30:21.126] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[10102024 23:30:21.127] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[10102024 23:30:21.518] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[10102024 23:30:21.701] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[10102024 23:30:21.702] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10102024 23:30:21.703] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10102024 23:30:21.704] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[10102024 23:30:21.705] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10102024 23:30:21.705] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10102024 23:30:22.476] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[10102024 23:30:22.479] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10102024 23:30:22.479] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10102024 23:30:22.762] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[10102024 23:30:53.016] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10102024 23:30:53.017] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10102024 23:30:53.018] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10102024 23:30:53.018] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10102024 23:30:53.019] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10102024 23:30:53.022] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.42_mapped_official_1.16.5-recomp.jar, main
+[10102024 23:30:54.573] [Render thread/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load block tag forge:ores as it is missing following references: forge:ores/astium_ore (from main),forge:ores/enderlight_ore (from main),forge:ores/forcinium_ore (from main),forge:ores/mikanium_ore (from main),forge:ores/parcing_nake_ore (from main),forge:ores/zionim_ore (from main)
+[10102024 23:30:54.606] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[10102024 23:30:56.034] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[10102024 23:30:56.159] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[10102024 23:30:56.609] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10102024 23:30:56.610] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10102024 23:30:56.610] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10102024 23:30:56.611] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10102024 23:30:56.611] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10102024 23:30:56.612] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.42_mapped_official_1.16.5-recomp.jar, main
+[10102024 23:30:58.243] [Render thread/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load block tag forge:ores as it is missing following references: forge:ores/astium_ore (from main),forge:ores/enderlight_ore (from main),forge:ores/forcinium_ore (from main),forge:ores/mikanium_ore (from main),forge:ores/parcing_nake_ore (from main),forge:ores/zionim_ore (from main)
+[10102024 23:30:58.253] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[10102024 23:30:59.556] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[10102024 23:30:59.605] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[10102024 23:31:00.333] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10102024 23:31:00.360] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.5
+[10102024 23:31:00.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10102024 23:31:01.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10102024 23:31:01.722] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：0%
+[10102024 23:31:01.722] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：0%
+[10102024 23:31:02.015] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 833 ms
+[10102024 23:31:02.179] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[10102024 23:31:03.012] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[10102024 23:31:03.043] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5ab9ad20
+[10102024 23:31:03.055] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:96f74317] logged in with entity id 71 at (183.86934411221114, 63.0, 14.998423454362706)
+[10102024 23:31:03.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームに参加しました
+[10102024 23:31:03.257] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[10102024 23:31:03.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
+[10102024 23:31:03.378] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 17 advancements
+[10102024 23:31:03.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
+[10102024 23:31:03.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
+[10102024 23:31:19.158] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[10102024 23:31:19.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
+[10102024 23:31:19.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
+[10102024 23:31:19.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
+[10102024 23:31:22.815] [Render thread/WARN] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[10102024 23:31:23.257] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[10102024 23:31:23.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
+[10102024 23:31:23.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
+[10102024 23:31:23.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
+[10102024 23:31:23.960] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: 切断されました
+[10102024 23:31:23.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Devがゲームを退出しました
+[10102024 23:31:23.967] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[10102024 23:31:24.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10102024 23:31:24.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10102024 23:31:24.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10102024 23:31:24.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
+[10102024 23:31:24.347] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (新規ワールド (2)): All chunks are saved
+[10102024 23:31:24.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
+[10102024 23:31:24.348] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10102024 23:31:24.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
+[10102024 23:31:24.348] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10102024 23:31:24.361] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (新規ワールド (2)): All chunks are saved
+[10102024 23:31:24.370] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10102024 23:31:24.370] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10102024 23:31:25.308] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
