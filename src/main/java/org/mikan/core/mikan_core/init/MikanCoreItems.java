@@ -49,6 +49,14 @@ public class MikanCoreItems {
                     new ItemIronGear(),
                     new ItemGoldGear(),
                     new ItemDiamondGear(),
+                    new ItemForneusIngot(),
+                    new ItemForneusPowder(),
+                    new ItemHellusIngot(),
+                    new ItemHellusPowder(),
+                    new ItemParcinglightIngot(),
+                    new ItemParcinglightPowder(),
+                    new ItemZeoidIngot(),
+                    new ItemZeoidPowder()
             };
             //アイテム登録処理
             event.getRegistry().registerAll(item);

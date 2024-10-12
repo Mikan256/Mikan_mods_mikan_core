@@ -33,5 +33,18 @@
   "block.mikan_core.mikanium_ore": "ミカニウム鉱石",
   "block.mikan_core.nerumes_ore": "ネルメス鉱石",
   "block.mikan_core.parcing_nake_ore": "パーシングネイク鉱石",
-  "block.mikan_core.zionim_ore": "ジオニム鉱石"
+  "block.mikan_core.zionim_ore": "ジオニム鉱石",
+  "item.mikan_core.wood_gear": "木の歯車",
+  "item.mikan_core.stone_gear": "石の歯車",
+  "item.mikan_core.iron_gear": "鉄の歯車",
+  "item.mikan_core.gold_gear": "金の歯車",
+  "item.mikan_core.diamond_gear": "ダイアモンドの歯車",
+  "item.mikan_core.forneus_ingot": "フォルネウスインゴット",
+  "item.mikan_core.forneus_powder": "フォルネウスパウダー",
+  "item.mikan_core.hellus_ingot": "ヘルアスインゴット",
+  "item.mikan_core.hellus_powder": "ヘルアスパウダー",
+  "item.mikan_core.parcinglight_ingot": "パーシングライトインゴット",
+  "item.mikan_core.parcinglight_powder": "パーシングライトパウダー",
+  "item.mikan_core.zeoid_ingot": "ジオイドインゴット",
+  "item.mikan_core.zeoid_powder": "ジオイドパウダー"
 }
