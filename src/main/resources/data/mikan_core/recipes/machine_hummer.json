@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "mikan_core:zionim_gem"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mikan_core:machine_hummer",
+    "count": 1
+  }
+}

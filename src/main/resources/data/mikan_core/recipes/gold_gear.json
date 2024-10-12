@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " / ",
+        "/O/",
+        " / "
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:gold"
+        },
+        "O": {
+            "item": "mikan_core:iron_gear"
+        }
+    },
+    "result": {
+        "item": "mikan_core:gold_gear",
+        "count": 1
+    }
+}
