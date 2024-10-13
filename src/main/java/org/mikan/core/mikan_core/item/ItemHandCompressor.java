@@ -10,6 +10,7 @@ public class ItemHandCompressor extends Item {
 
     public ItemHandCompressor(){
         super(new Properties().tab(MikanTabinit.Mikan_tab)
+                //耐久力
                 .durability(20)
 
 
@@ -19,6 +20,7 @@ public class ItemHandCompressor extends Item {
         this.setRegistryName("hand_compressor");
 
     }
+    //耐久力減り具合
     @Override
     public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
         return 1F;

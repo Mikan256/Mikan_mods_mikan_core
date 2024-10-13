@@ -13,6 +13,7 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 
 import java.util.Objects;
 
+//鉱石生成　置き換え:石,地下,生成設定,Features登録
 public class OreGeneration {
     public static void generationOres(final BiomeLoadingEvent event){
         for (OreType ore:OreType.values()){

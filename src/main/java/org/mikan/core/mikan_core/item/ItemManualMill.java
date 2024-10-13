@@ -11,7 +11,7 @@ public class ItemManualMill extends Item {
         super(new Properties().tab(MikanTabinit.Mikan_tab).durability(30));
         this.setRegistryName("manual_mill");
     }
-
+    //耐久力減り具合
     @Override
     public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
         return 1F;

@@ -19,11 +19,13 @@ public class ItemMikan extends Item {
         super(new Properties().tab(MikanTabinit.Mikan_tab).food(new Food.Builder().nutrition(6).saturationMod(2.0F).build()));
         this.setRegistryName("mikan");
     }
+
+    //説明欄追加
     @Override
     public void appendHoverText(ItemStack p_77624_1_,  World p_77624_2_, List<ITextComponent> p_77624_3_, ITooltipFlag p_77624_4_) {
         p_77624_3_.add(this.getDisplayName().withStyle(TextFormatting.GRAY));
     }
-
+    //langファイルから参照
     private IFormattableTextComponent getDisplayName() {
         return new TranslationTextComponent(this.getDescriptionId() + ".desc");
     }

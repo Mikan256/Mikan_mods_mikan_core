@@ -21,6 +21,7 @@ import java.util.Set;
 import java.util.function.Supplier;
 
 public class TreeGeneration {
+    //木の生成 きのこ島
     public static void generateTrees(final BiomeLoadingEvent event){
         MikanTree mikanTree = new MikanTree();
         Random random = new Random();

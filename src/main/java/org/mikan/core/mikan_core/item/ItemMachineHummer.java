@@ -12,6 +12,7 @@ public class ItemMachineHummer extends Item {
         this.setRegistryName("machine_hummer");
 
     }
+    //耐久力減り具合
     @Override
     public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
         return 1F;

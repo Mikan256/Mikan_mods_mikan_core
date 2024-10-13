@@ -13,6 +13,7 @@ public class MikanTreeFeature  {
     //木登録
     public static final ConfiguredFeature<BaseTreeFeatureConfig, ?> MIKAN = register(
             "mikan",
+            //白樺と同じ生成方式
             Feature.TREE.configured((new BaseTreeFeatureConfig.Builder
                     (new SimpleBlockStateProvider(MikanCoreBlocks.Register.MIKAN_LOG.get().defaultBlockState()),
                             new SimpleBlockStateProvider(MikanCoreBlocks.Register.MIKAN_LEAVE.get().defaultBlockState()),
@@ -21,6 +22,7 @@ public class MikanTreeFeature  {
                             new StraightTrunkPlacer(5, 2, 0),
                             new TwoLayerFeature(1, 0, 1))).ignoreVines().build()));
 
+    //Featuresに登録
     private static <FC extends IFeatureConfig> ConfiguredFeature<FC, ?> register(String p_243968_0_, ConfiguredFeature<FC, ?> p_243968_1_) {
         return Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, p_243968_0_, p_243968_1_);
     }

@@ -7,6 +7,7 @@ import org.mikan.core.mikan_core.block.trees.MikanTree;
 
 public class BlockMikanSapling extends SaplingBlock {
     public BlockMikanSapling(){
+        //木との関連付け
         super(new MikanTree(), Properties.of(Material.PLANT)
                 .sound(SoundType.GRASS)
                 .strength(0F,0F)

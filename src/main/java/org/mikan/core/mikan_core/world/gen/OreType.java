@@ -5,6 +5,7 @@ import net.minecraftforge.common.util.Lazy;
 import org.mikan.core.mikan_core.init.MikanCoreBlocks;
 
 public enum OreType {
+    //鉱脈の登録
     ASTIUM_ORE(Lazy.of(MikanCoreBlocks.Register.ASTIUM_ORE),10,5,128),
     ENDERLIGHT_ORE(Lazy.of(MikanCoreBlocks.Register.ENDERLIGHT_ORE),4,0,16),
     FORCINIUM_ORE(Lazy.of(MikanCoreBlocks.Register.FORCINIUM_ORE),8,5,32),

@@ -8,6 +8,7 @@ import org.mikan.core.mikan_core.Mikan_core;
 @Mod.EventBusSubscriber(modid = Mikan_core.MOD_ID)
 public class MikanCoreWorldEvents {
 
+    //木の生成と鉱石の生成 バイオームローディング
     @SubscribeEvent
     public static void biomeLoadingEvent(final BiomeLoadingEvent event){
         OreGeneration.generationOres(event);

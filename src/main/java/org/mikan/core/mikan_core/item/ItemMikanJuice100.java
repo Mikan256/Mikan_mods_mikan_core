@@ -18,9 +18,12 @@ import java.util.function.Supplier;
 public class ItemMikanJuice100 extends Item {
 
     public ItemMikanJuice100(){
+        //食べ物設定とエフェクト設定
         super(new Properties().tab(MikanTabinit.Mikan_tab).food(new Food.Builder().alwaysEat().nutrition(6).saturationMod(2.0F).effect(new EffectInstance(Effects.NIGHT_VISION,600,1),1F).build()));
         this.setRegistryName("mikan_juice_100");
     }
+
+    //飲み物の音に変更
     @Override
     public SoundEvent getEatingSound() {
         return SoundEvents.GENERIC_DRINK;

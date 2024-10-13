@@ -39,12 +39,13 @@ public class ItemMikanTorch extends Item {
         super.inventoryTick(stack, world, entity, slot, selected);
 
     }
-
+    //説明欄追加
     @Override
     public void appendHoverText(ItemStack p_77624_1_, @Nullable World p_77624_2_, List<ITextComponent> p_77624_3_, ITooltipFlag p_77624_4_) {
         p_77624_3_.add(this.getDisplayName().withStyle(TextFormatting.GRAY));
     }
 
+    //langファイルから参照
     private IFormattableTextComponent getDisplayName() {
         return new TranslationTextComponent(this.getDescriptionId() + ".desc");
     }
