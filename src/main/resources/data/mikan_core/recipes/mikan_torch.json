@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " n ",
+        "nTn",
+        " n "
+    ],
+    "key": {
+        "n": {
+            "item": "mikan_core:mikanium_ingot"
+        },
+        "T": {
+            "item": "minecraft:torch"
+        }
+    },
+    "result": {
+        "item": "mikan_core:mikan_torch",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #B",
+    "#D#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "mikan_core:astium_gem"
+    },
+    "B": {
+      "item": "mikan_core:machine_hummer"
+    },
+    "D": {
+      "item": "mikan_core:enderlight_gem"
+    }
+  },
+  "result": {
+    "item": "mikan_core:mineral_pressurized_concentrator",
+    "count": 1
+  }
+}

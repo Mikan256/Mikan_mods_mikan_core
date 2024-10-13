@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mikan_core:nerumes_powder"
+    },
+    {
+      "item": "mikan_core:astium_powder"
+    },
+    {
+      "item": "mikan_core:mineral_pressurized_concentrator"
+    }
+  ],
+  "result": {
+    "item": "mikan_core:hellus_powder",
+    "count": 1
+  }
+}
