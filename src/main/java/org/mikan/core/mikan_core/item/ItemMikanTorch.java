@@ -1,5 +1,6 @@
 package org.mikan.core.mikan_core.item;
 
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.command.impl.EffectCommand;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
@@ -9,9 +10,17 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Effect;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
+import net.minecraft.util.text.IFormattableTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.TextFormatting;
+import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.LogicalSidedProvider;
 import org.mikan.core.mikan_core.init.MikanTabinit;
+
+import javax.annotation.Nullable;
+import javax.annotation.PostConstruct;
+import java.util.List;
 
 public class ItemMikanTorch extends Item {
 
@@ -29,6 +38,15 @@ public class ItemMikanTorch extends Item {
         }
         super.inventoryTick(stack, world, entity, slot, selected);
 
+    }
+
+    @Override
+    public void appendHoverText(ItemStack p_77624_1_, @Nullable World p_77624_2_, List<ITextComponent> p_77624_3_, ITooltipFlag p_77624_4_) {
+        p_77624_3_.add(this.getDisplayName().withStyle(TextFormatting.GRAY));
+    }
+
+    private IFormattableTextComponent getDisplayName() {
+        return new TranslationTextComponent(this.getDescriptionId() + ".desc");
     }
 
 }
