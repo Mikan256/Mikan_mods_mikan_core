@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mikan_core:forneus_powder"
+  },
+  "result": "mikan_core:forneus_ingot",
+  "experience": 0.1,
+  "cookingtime": 300
+}

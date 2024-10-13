@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #/",
+    "#/#",
+    "/# "
+  ],
+  "key": {
+    "#": {
+      "item": "mikan_core:diamond_shaves"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mikan_core:manual_mill",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mikan_core:parcinglight_powder"
+  },
+  "result": "mikan_core:parcinglight_ingot",
+  "experience": 0.1,
+  "cookingtime": 500
+}
