@@ -101,7 +101,7 @@ public class MikanCoreBlocks {
         public static final RegistryObject<Block> PARCING_NAKE_ORE = RegistryObject.of(new ResourceLocation("mikan_core:parcing_nake_ore"), ForgeRegistries.BLOCKS);
         public static final RegistryObject<Block> ZIONIM_ORE = RegistryObject.of(new ResourceLocation("mikan_core:zionim_ore"), ForgeRegistries.BLOCKS);
         //参照用登録アイテム
-        public static final RegistryObject<BlockItem> ASTIUM_ORE_ITEM = RegistryObject.of(new ResourceLocation("mikan_core:astium_ore.json"), ForgeRegistries.ITEMS);
+        public static final RegistryObject<BlockItem> ASTIUM_ORE_ITEM = RegistryObject.of(new ResourceLocation("mikan_core:astium_ore"), ForgeRegistries.ITEMS);
         public static final RegistryObject<BlockItem> ENDERLIGHT_ORE_ITEM = RegistryObject.of(new ResourceLocation("mikan_core:enderlight_ore"), ForgeRegistries.ITEMS);
         public static final RegistryObject<BlockItem> FORCINIUM_ORE_ITEM = RegistryObject.of(new ResourceLocation("mikan_core:forcinium_ore"), ForgeRegistries.ITEMS);
         public static final RegistryObject<BlockItem> MIKANIUM_ORE_ITEM = RegistryObject.of(new ResourceLocation("mikan_core:mikanium_ore"), ForgeRegistries.ITEMS);
